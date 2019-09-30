@@ -28,9 +28,4 @@ windows 中 打开E盘  `cd /E/`
 4. 编辑你的文件{一大堆代码print('hello world)} 
 5. git add ./ ，  ./的意思是当前目录下所有的文件
 6. git commit -m "desc" , 写清楚这次的提交描述
-7. git push, 推送到远程的github
-
-之后呢，有很多高级用法，先提前演示一下，比如你想回到最初的状态 森么叫最初的状态 就是 git中 每commot一次就是一个版本
-先不学 好
-. git logshe
- 
+7. git push, 推送到远程的githu
