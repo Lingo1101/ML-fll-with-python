@@ -29,3 +29,15 @@ windows 中 打开E盘  `cd /E/`
 5. git add ./ ，  ./的意思是当前目录下所有的文件
 6. git commit -m "desc" , 写清楚这次的提交描述
 7. git push, 推送到远程的github
+
+
+
+# 修改jupyter默认地址
+命令行输入：jupyter notebook --generate-config
+输入这个命令之后会告诉你产生了一个jupyter_notebook_config.py的文件.
+按照提示的地址找到这个文件使用 notepad++ 打开文件，然后搜索 notebook_dir , 修改为你要使用的地址。重新打开jupyter，网页就是新的地址了
+
+然后呢，你可以把从其他地方下载的jupyter文件放到这个目录下面，然后可以方便的打开运行啦
+
+
+
